@@ -11,4 +11,7 @@ import scrapy
 class UfmaCrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    url_detail = scrapy.Field()
+    url_fin = scrapy.Field()
+    salary = scrapy.Field()
